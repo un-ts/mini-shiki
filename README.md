@@ -11,7 +11,7 @@ Compare Shiki's dependency tree:
 
 To this package's dependency tree:
 
-<!-- <img src="static/mini-shiki-dependency-tree.svg"> -->
+<img src="static/mini-shiki-dependency-tree.svg">
 
 The Shiki maintainers [have declined](https://github.com/shikijs/shiki/issues/844) to split
 up the package in a way which makes it possible to avoid these dependencies when just relying
