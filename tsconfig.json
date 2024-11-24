@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "lib": ["es2023", "DOM"],
+    "module": "node16",
+    "target": "es2023",
+    "outDir": "dist",
+
+    "strict": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node16",
+
+    // Emit is done via rollup
+    "noEmit": true
+  },
+  "files": ["src/shiki.ts"]
+}

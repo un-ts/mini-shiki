@@ -1,0 +1,31 @@
+name: Update Shiki
+
+on:
+  # Daily at 00:00 UTC
+  schedule:
+    - cron: "0 0 * * *"
+
+  # Or execute manually from UI
+  workflow_dispatch:
+
+jobs:
+  generate-web-api-index:
+    name: Generate Web API Index
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Install
+        run: npm ci
+      - name: Update Shiki
+        run: |
+          ./scripts/update_shiki.sh
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "github-actions@github.com"
+          git config --local user.name "github-actions"
+          ./scripts/commit_shiki_update.sh
