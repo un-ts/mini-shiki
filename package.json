@@ -12,7 +12,10 @@
       "import": "./dist/onig.wasm"
     }
   },
-  "repository": "https://github.com/Gerrit0/mini-shiki",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gerrit0/mini-shiki.git"
+  },
   "scripts": {
     "build": "./scripts/build.sh",
     "test": "node --test"
@@ -27,6 +30,13 @@
     "semver": "7.6.3",
     "shiki": "^1.23.1"
   },
+  "files": [
+    "static",
+    "dist",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE"
+  ],
   "dependencies": {
     "@shikijs/engine-oniguruma": "^1.23.1",
     "@shikijs/types": "^1.23.1",
