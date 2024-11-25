@@ -25,6 +25,7 @@ export type {
   TokenStyles,
   LoadWasmOptions,
   RegexEngine,
+  ShikiInternal,
 } from "@shikijs/types";
 
 export async function loadBuiltinWasm() {
