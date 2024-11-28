@@ -9,8 +9,8 @@ on:
   workflow_dispatch:
 
 jobs:
-  generate-web-api-index:
-    name: Generate Web API Index
+  update:
+    name: Update Shiki
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
