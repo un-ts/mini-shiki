@@ -23,6 +23,11 @@ This package will be released and keep the same major/minor version numbers as S
 Patch versions will generally be the same as Shiki, but may differ if adjustments are
 necessary to fix compatibility issues.
 
+## ESM / CommonJS
+
+This package is ESM, but does not use top level await, so may be `require`d in
+Node 23, or Node 20.17+ with the `--experimental-require-module` flag.
+
 ## Usage
 
 ```js

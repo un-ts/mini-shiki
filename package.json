@@ -6,7 +6,7 @@
   "exports": {
     ".": {
       "types": "./dist/shiki.d.ts",
-      "import": "./dist/shiki.js"
+      "default": "./dist/shiki.js"
     },
     "./onig.wasm": {
       "import": "./dist/onig.wasm"
@@ -18,7 +18,7 @@
   },
   "scripts": {
     "build": "./scripts/build.sh",
-    "test": "node --test"
+    "test": "node --experimental-require-module --test"
   },
   "devDependencies": {
     "@rollup/plugin-node-resolve": "15.3.0",
