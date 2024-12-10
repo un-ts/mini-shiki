@@ -1,5 +1,9 @@
 # Changelog
 
+## v1.24.2 (2024-12-10)
+
+- Update to Shiki v1.24.1
+
 ## v1.24.1 (2024-11-29)
 
 - Support `require` with Node's `--experimental-require-module` flag
