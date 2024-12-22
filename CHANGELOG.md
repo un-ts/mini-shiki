@@ -1,5 +1,9 @@
 # Changelog
 
+## v1.24.4 (2024-12-22)
+
+- Update to Shiki v1.24.4
+
 ## v1.24.3 (2024-12-20)
 
 - Update to Shiki v1.24.3
