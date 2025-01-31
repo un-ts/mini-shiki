@@ -1,5 +1,9 @@
 # Changelog
 
+## v2.2.0 (2025-01-31)
+
+- Update to Shiki v2.2.0
+
 ## v2.1.0 (2025-01-23)
 
 - Update to Shiki v2.1.0
