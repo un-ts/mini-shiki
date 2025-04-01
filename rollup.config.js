@@ -13,6 +13,8 @@ export default [
       "@shikijs/vscode-textmate",
       "@shikijs/engine-oniguruma",
       "@shikijs/types",
+      /^@shikijs\/langs/,
+      /^@shikijs\/themes/,
     ],
     plugins: [typescript(), nodeResolve()],
   },

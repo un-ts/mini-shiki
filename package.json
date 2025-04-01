@@ -39,6 +39,8 @@
   ],
   "dependencies": {
     "@shikijs/engine-oniguruma": "^3.2.1",
+    "@shikijs/langs": "^3.2.1",
+    "@shikijs/themes": "^3.2.1",
     "@shikijs/types": "^3.2.1",
     "@shikijs/vscode-textmate": "^10.0.2"
   }
