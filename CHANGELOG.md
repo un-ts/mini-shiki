@@ -1,5 +1,9 @@
 # Changelog
 
+## v3.2.3 (2025-04-11)
+
+- Update to Shiki v3.2.2
+
 ## v3.2.2 (2025-03-31)
 
 - Don't bundle `@shikijs/langs` and `@shikijs/themes`, #2 (@ocavue)
