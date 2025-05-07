@@ -1,5 +1,9 @@
 # Changelog
 
+## v3.4.0 (2025-05-07)
+
+- Update to Shiki v3.4.0
+
 ## v3.3.0 (2025-04-23)
 
 - Update to Shiki v3.3.0
