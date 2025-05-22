@@ -28,7 +28,7 @@
 
 ## v3.2.2 (2025-03-31)
 
-- Don't bundle `@shikijs/langs` and `@shikijs/themes`, [#2](https://github.com/Gerrit0/mini-shiki/pull/2) (@ocavue)
+- Don't bundle `@shikijs/langs` and `@shikijs/themes`, [#2](https://github.com/Gerrit0/mini-shiki/pull/2) ([@ocavue](https://github.com/ocavue))
 
 ## v3.2.1 (2025-03-12)
 
