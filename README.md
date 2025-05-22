@@ -1,7 +1,10 @@
-# @gerrit0/mini-shiki
+# mini-shiki
 
 This is a re-bundled version of [Shiki](https://shiki.style/) which strips out
 the dependencies which aren't necessary for [TypeDoc](https://typedoc.org/)'s usage.
+
+> [!NOTE]
+> This is an unscoped version of [@gerrit0/mini-shiki](https://github.com/Gerrit0/mini-shiki), please view [Gerrit0/mini-shiki#3](https://github.com/Gerrit0/mini-shiki/issues/3) for more information.
 
 ## Why?
 
@@ -38,17 +41,17 @@ import {
   bundledLanguages,
   bundledThemes,
   loadBuiltinWasm,
-} from "@gerrit0/mini-shiki";
+} from 'mini-shiki'
 
-await loadBuiltinWasm();
+await loadBuiltinWasm()
 const shiki = await createShikiInternal({
   engine: createOnigurumaEngine(),
   langs: [bundledLanguages.typescript],
-  themes: [bundledThemes["light-plus"]],
-});
+  themes: [bundledThemes['light-plus']],
+})
 
 const lines = codeToTokensWithThemes(shiki, "console.log('Hello world!')", {
-  themes: { light: "light-plus" },
-  lang: "typescript",
-});
+  themes: { light: 'light-plus' },
+  lang: 'typescript',
+})
 ```

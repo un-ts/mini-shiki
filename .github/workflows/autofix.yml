@@ -1,25 +1,21 @@
-name: CI
+name: autofix.ci # For security reasons, the workflow in which the autofix.ci action is used must be named "autofix.ci".
 
 on:
-  push: null
-  pull_request: null
-  workflow_run:
-    workflows: ['Update Shiki']
-    branches:
-      - main
+  pull_request:
     types:
-      - completed
+      - opened
+      - reopened
+      - synchronize
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
-  ci:
-    name: Build and Test
+  autofix:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repo
@@ -34,8 +30,13 @@ jobs:
       - name: Install dependencies
         run: yarn --immutable
 
-      - name: Build, Lint, and Test
-        run: |
-          yarn build
-          yarn lint
-          yarn test
+      - name: Format Codes
+        run: yarn format
+
+      - name: Lint Fix
+        run: yarn lint --fix
+
+      - name: Apply autofix.ci
+        uses: autofix-ci/action@2891949f3779a1cafafae1523058501de3d4e944 # v1
+        with:
+          fail-fast: false
