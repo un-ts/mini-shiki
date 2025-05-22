@@ -3,7 +3,6 @@
   "extends": [
     "github>1stG/configs"
   ],
-  "// comment": "all shiki related packages are ignored because they are automatically updated by GitHub Actions daily",
   "ignoreDeps": [
     "@shikijs/engine-oniguruma",
     "@shikijs/langs",
