@@ -1,5 +1,11 @@
 # Changelog
 
+## 3.4.3
+
+### Patch Changes
+
+- [#5](https://github.com/un-ts/mini-shiki/pull/5) [`9cfe3d2`](https://github.com/un-ts/mini-shiki/commit/9cfe3d21ce7228fab2cabeb8d914a4941788024c) Thanks [@JounQin](https://github.com/JounQin)! - chore: add funding info
+
 ## v3.4.2 (2025-05-16)
 
 - Update to Shiki [v3.4.2](https://github.com/shikijs/shiki/releases/tag/v3.4.2)
