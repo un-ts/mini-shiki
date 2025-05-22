@@ -1,6 +1,6 @@
 // @ts-check
 
-import { deepStrictEqual as equal } from 'node:assert'
+import { deepStrictEqual } from 'node:assert/strict'
 import { test } from 'node:test'
 
 import {
@@ -10,11 +10,11 @@ import {
   bundledLanguages,
   bundledThemes,
   loadBuiltinWasm,
-} from 'mini-shiki'
+} from '../src/shiki.ts'
 
 await loadBuiltinWasm()
 
-test('Highlight usage', async () => {
+void test('Highlight usage', async () => {
   const shiki = await createShikiInternal({
     engine: createOnigurumaEngine(),
     langs: [bundledLanguages.typescript],
@@ -26,8 +26,8 @@ test('Highlight usage', async () => {
     lang: 'typescript',
   })
 
-  equal(lines.length, 1)
-  equal(
+  deepStrictEqual(lines.length, 1)
+  deepStrictEqual(
     lines[0].map(t => ({ text: t.content, offset: t.offset })),
     [
       { text: 'console', offset: 0 },

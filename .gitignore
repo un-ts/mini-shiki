@@ -1,5 +1,9 @@
+.DS_Store
 .yarn/*
 !.yarn/releases
 !.yarn/plugins
+.type-coverage
+coverage
 dist
 node_modules
+src/onig.wasm
