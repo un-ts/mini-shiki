@@ -1,6 +1,6 @@
 {
   "name": "mini-shiki",
-  "version": "3.4.2",
+  "version": "3.4.3",
   "type": "module",
   "repository": "git+https://github.com/un-ts/mini-shiki.git",
   "homepage": "https://github.com/un-ts/mini-shiki#readme",
