@@ -1,19 +1,19 @@
-// @ts-check
-// This is a copy of shiki.test.js with imports swapped for require
+// This is a copy of shiki.test.ts with imports swapped for require
 
-const { deepStrictEqual: equal } = require('node:assert')
-const { test } = require('node:test')
+const { deepStrictEqual } =
+  require('node:assert/strict') as typeof import('node:assert/strict')
+const { test } = require('node:test') as typeof import('node:test')
 
-const {
-  codeToTokensWithThemes,
-  createShikiInternal,
-  createOnigurumaEngine,
-  bundledLanguages,
-  bundledThemes,
-  loadBuiltinWasm,
-} = require('mini-shiki')
+void test('CJS Highlight usage', async () => {
+  const {
+    codeToTokensWithThemes,
+    createShikiInternal,
+    createOnigurumaEngine,
+    bundledLanguages,
+    bundledThemes,
+    loadBuiltinWasm,
+  } = await import('../src/shiki.ts')
 
-test('CJS Highlight usage', async () => {
   await loadBuiltinWasm()
 
   const shiki = await createShikiInternal({
@@ -27,8 +27,10 @@ test('CJS Highlight usage', async () => {
     lang: 'typescript',
   })
 
-  equal(lines.length, 1)
-  equal(
+  // @ts-expect-error -- no idea
+  deepStrictEqual(lines.length, 1)
+  // @ts-expect-error -- no idea
+  deepStrictEqual(
     lines[0].map(t => ({ text: t.content, offset: t.offset })),
     [
       { text: 'console', offset: 0 },

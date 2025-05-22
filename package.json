@@ -4,6 +4,7 @@
   "type": "module",
   "repository": "git+https://github.com/un-ts/mini-shiki.git",
   "homepage": "https://github.com/un-ts/mini-shiki#readme",
+  "funding": "https://opencollective.com/mini-shiki",
   "license": "MIT",
   "packageManager": "yarn@4.9.1",
   "exports": {
@@ -21,12 +22,15 @@
     "static"
   ],
   "scripts": {
-    "build": "tsdown && cp node_modules/shiki/dist/onig.wasm dist/onig.wasm",
+    "build": "tsdown && cp src/onig.wasm dist/onig.wasm",
     "format": "prettier --write .",
-    "lint": "yarn build && eslint",
-    "prepare": "simple-git-hooks && yarn-berry-deduplicate || exit 0",
+    "lint": "run-p 'lint:*'",
+    "lint:es": "eslint",
+    "lint:tsc": "tsc --noEmit",
+    "prepare": "cp node_modules/shiki/dist/onig.wasm src/onig.wasm && simple-git-hooks && yarn-berry-deduplicate || exit 0",
     "release": "yarn build && clean-pkg-json && changeset publish",
-    "test": "node --experimental-require-module --test",
+    "test": "c8 --reporter=lcov --reporter=text node --experimental-require-module --experimental-strip-types --test",
+    "typecov": "type-coverage",
     "version": "changeset version && yarn --no-immutable"
   },
   "dependencies": {
@@ -41,15 +45,32 @@
     "@changesets/changelog-github": "^0.5.1",
     "@changesets/cli": "^2.29.4",
     "@commitlint/cli": "^19.8.1",
-    "@types/node": "^22.9.3",
+    "@types/node": "^22.15.21",
+    "c8": "^10.1.3",
     "clean-pkg-json": "^1.3.0",
     "eslint": "^9.27.0",
     "nano-staged": "^0.8.0",
+    "npm-run-all2": "^8.0.3",
     "prettier": "^3.5.3",
-    "semver": "7.6.3",
+    "semver": "7.7.2",
     "shiki": "^3.4.2",
     "simple-git-hooks": "^2.13.0",
     "tsdown": "^0.12.1",
+    "type-coverage": "^2.29.7",
+    "typescript": "^5.8.3",
     "yarn-berry-deduplicate": "^6.1.3"
+  },
+  "resolutions": {
+    "prettier": "^3.5.3"
+  },
+  "typeCoverage": {
+    "atLeast": 100,
+    "cache": true,
+    "detail": true,
+    "ignoreAsAssertion": true,
+    "ignoreNonNullAssertion": true,
+    "showRelativePath": true,
+    "strict": true,
+    "update": true
   }
 }
