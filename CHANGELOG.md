@@ -1,5 +1,9 @@
 # Changelog
 
+## v3.6.0 (2025-06-06)
+
+- Update to Shiki [v3.6.0](https://github.com/shikijs/shiki/releases/tag/v3.6.0)
+
 ## 3.4.3
 
 ### Patch Changes
