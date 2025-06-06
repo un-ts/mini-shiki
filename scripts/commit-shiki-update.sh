@@ -8,7 +8,7 @@ if ! git diff --exit-code package.json > /dev/null; then
   read major minor patch <<< $(tr . " " <<< "$shiki_version")
 
   while true; do
-    yarn version "$major.$minor.$patch" --no-git-tag-version && break
+    yarn version "$major.$minor.$patch" && break
     patch=$((patch + 1))
   done
   version="v$major.$minor.$patch"
@@ -33,7 +33,7 @@ if ! git diff --exit-code package.json > /dev/null; then
   mv CHANGELOG2.md CHANGELOG.md
 
   git add CHANGELOG.md ./package.json ./yarn.lock
-  git commit -m "[github-actions] Update Shiki to v$shiki_version"
+  git commit -m "chore: update shiki to v$shiki_version [github-actions]"
   git push
 else
   echo "Shiki is up to date"
