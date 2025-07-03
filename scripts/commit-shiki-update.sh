@@ -33,7 +33,7 @@ if ! git diff --exit-code package.json > /dev/null; then
   mv CHANGELOG2.md CHANGELOG.md
 
   git add CHANGELOG.md ./package.json ./yarn.lock
-  git commit -m "chore: update shiki to v$shiki_version [ci skip]"
+  git commit -m "chore: update shiki to v$shiki_version [github-actions]"
   git push
 else
   echo "Shiki is up to date"
