@@ -1,5 +1,9 @@
 # Changelog
 
+## v3.8.0 (2025-07-15)
+
+- Update to Shiki [v3.8.0](https://github.com/shikijs/shiki/releases/tag/v3.8.0)
+
 ## v3.7.0 (2025-06-21)
 
 - Update to Shiki [v3.7.0](https://github.com/shikijs/shiki/releases/tag/v3.7.0)
