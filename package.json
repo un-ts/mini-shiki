@@ -6,7 +6,7 @@
   "homepage": "https://github.com/un-ts/mini-shiki#readme",
   "funding": "https://opencollective.com/mini-shiki",
   "license": "MIT",
-  "packageManager": "yarn@4.9.1",
+  "packageManager": "yarn@4.9.2",
   "exports": {
     ".": {
       "types": "./dist/shiki.d.ts",
