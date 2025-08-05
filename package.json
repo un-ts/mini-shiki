@@ -1,6 +1,6 @@
 {
   "name": "mini-shiki",
-  "version": "3.9.1",
+  "version": "3.9.2",
   "type": "module",
   "repository": "git+https://github.com/un-ts/mini-shiki.git",
   "homepage": "https://github.com/un-ts/mini-shiki#readme",
@@ -34,10 +34,10 @@
     "version": "changeset version && yarn --no-immutable"
   },
   "dependencies": {
-    "@shikijs/engine-oniguruma": "^3.9.1",
-    "@shikijs/langs": "^3.9.1",
-    "@shikijs/themes": "^3.9.1",
-    "@shikijs/types": "^3.9.1",
+    "@shikijs/engine-oniguruma": "^3.9.2",
+    "@shikijs/langs": "^3.9.2",
+    "@shikijs/themes": "^3.9.2",
+    "@shikijs/types": "^3.9.2",
     "@shikijs/vscode-textmate": "^10.0.2"
   },
   "devDependencies": {
@@ -53,7 +53,7 @@
     "npm-run-all2": "^8.0.3",
     "prettier": "^3.5.3",
     "semver": "7.7.2",
-    "shiki": "^3.9.1",
+    "shiki": "^3.9.2",
     "simple-git-hooks": "^2.13.0",
     "tsdown": "^0.12.2",
     "type-coverage": "^2.29.7",
