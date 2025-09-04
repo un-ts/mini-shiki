@@ -1,5 +1,9 @@
 # Changelog
 
+## v3.12.2 (2025-09-04)
+
+- Update to Shiki [v3.12.2](https://github.com/shikijs/shiki/releases/tag/v3.12.2)
+
 ## v3.12.1 (2025-09-02)
 
 - Update to Shiki [v3.12.1](https://github.com/shikijs/shiki/releases/tag/v3.12.1)
