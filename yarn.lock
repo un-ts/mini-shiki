@@ -2990,64 +2990,64 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@shikijs/core@npm:3.14.0":
-  version: 3.14.0
-  resolution: "@shikijs/core@npm:3.14.0"
+"@shikijs/core@npm:3.15.0":
+  version: 3.15.0
+  resolution: "@shikijs/core@npm:3.15.0"
   dependencies:
-    "@shikijs/types": "npm:3.14.0"
+    "@shikijs/types": "npm:3.15.0"
     "@shikijs/vscode-textmate": "npm:^10.0.2"
     "@types/hast": "npm:^3.0.4"
     hast-util-to-html: "npm:^9.0.5"
-  checksum: 10c0/06d997fa892b7d5f69a0978e6d0de388d91f756018ef4048ff836644e2e99c495cf8c642c531ffc4daf6cba619181202f3f5191dcb0ba478b848d67fa6eafda1
+  checksum: 10c0/b76ee8518cb4bbb22fa5923f0d6aa351ca8775cd11cc5a71e509b7fce5935d6a2fc4fd5154ca15597cbb0192d2fa3341f2568a85a7c7939a1b2f7a330ab306fc
   languageName: node
   linkType: hard
 
-"@shikijs/engine-javascript@npm:3.14.0":
-  version: 3.14.0
-  resolution: "@shikijs/engine-javascript@npm:3.14.0"
+"@shikijs/engine-javascript@npm:3.15.0":
+  version: 3.15.0
+  resolution: "@shikijs/engine-javascript@npm:3.15.0"
   dependencies:
-    "@shikijs/types": "npm:3.14.0"
+    "@shikijs/types": "npm:3.15.0"
     "@shikijs/vscode-textmate": "npm:^10.0.2"
     oniguruma-to-es: "npm:^4.3.3"
-  checksum: 10c0/fbad30886797a7530d1de9113a7e7523b233c1f02a83ef9c77d666d0e84be2abe4b49b6ce702fd5be45fdd9ed606660efe5ab0d994dc090e3006d86a7a9e8125
+  checksum: 10c0/a72c83eb2c495ed8f075314e47503e04eaca7b01017cdec7bb5d2017f6464c87cff3578fc8142239c8f060dfd4b92717f3d48c0e49127c2ca50be4456548d87c
   languageName: node
   linkType: hard
 
-"@shikijs/engine-oniguruma@npm:3.14.0, @shikijs/engine-oniguruma@npm:^3.14.0":
-  version: 3.14.0
-  resolution: "@shikijs/engine-oniguruma@npm:3.14.0"
+"@shikijs/engine-oniguruma@npm:3.15.0, @shikijs/engine-oniguruma@npm:^3.15.0":
+  version: 3.15.0
+  resolution: "@shikijs/engine-oniguruma@npm:3.15.0"
   dependencies:
-    "@shikijs/types": "npm:3.14.0"
+    "@shikijs/types": "npm:3.15.0"
     "@shikijs/vscode-textmate": "npm:^10.0.2"
-  checksum: 10c0/6dab2310c910fedd89046299c4423b2100c8c771822e487070d9eb158907782f195f1b9dd560b6b84f74432bdd1ca4e4429f4af76d30c0e45f8448f100094996
+  checksum: 10c0/97cb43d1f3fbace9f5412e516ab87ad38b529550bb696891a518efcefa32680a0b625a17e1fe8db6cf2b1e6e252db7ac408e3294375ec0600a9b07e4e482ca7c
   languageName: node
   linkType: hard
 
-"@shikijs/langs@npm:3.14.0, @shikijs/langs@npm:^3.14.0":
-  version: 3.14.0
-  resolution: "@shikijs/langs@npm:3.14.0"
+"@shikijs/langs@npm:3.15.0, @shikijs/langs@npm:^3.15.0":
+  version: 3.15.0
+  resolution: "@shikijs/langs@npm:3.15.0"
   dependencies:
-    "@shikijs/types": "npm:3.14.0"
-  checksum: 10c0/59ed3b0e9f893a57c8e88b77e9280d993b0dfe219b91db2f8143a65728ef47b02e17056a029f710753184e1c077dfa589cbc5491253d791472a94dca9f598fa3
+    "@shikijs/types": "npm:3.15.0"
+  checksum: 10c0/d5a328ec999572f50e4fec77213e7d0f106c90c04e078be29cdb2467f10012221d52435fd9711f963ce30adbf14805d2a31a2e602fa7a074fa450bbf83553eca
   languageName: node
   linkType: hard
 
-"@shikijs/themes@npm:3.14.0, @shikijs/themes@npm:^3.14.0":
-  version: 3.14.0
-  resolution: "@shikijs/themes@npm:3.14.0"
+"@shikijs/themes@npm:3.15.0, @shikijs/themes@npm:^3.15.0":
+  version: 3.15.0
+  resolution: "@shikijs/themes@npm:3.15.0"
   dependencies:
-    "@shikijs/types": "npm:3.14.0"
-  checksum: 10c0/3326482f081e313957c3e74ae86721d18efb32c022b31936f7da1b4782f4c970dea71989934baf9ab8adbeafea07235834b2e6ab83b67e71dc87fb328a1caa58
+    "@shikijs/types": "npm:3.15.0"
+  checksum: 10c0/2b6a435d991d1fd924622e437c5546ecc5ab3d5c0843edbe2ca444e4e91a9c4d8d9c0a673a32afdb1c262dffcd7839518a9f9154121be8dfa7553f99458d9bab
   languageName: node
   linkType: hard
 
-"@shikijs/types@npm:3.14.0, @shikijs/types@npm:^3.14.0":
-  version: 3.14.0
-  resolution: "@shikijs/types@npm:3.14.0"
+"@shikijs/types@npm:3.15.0, @shikijs/types@npm:^3.15.0":
+  version: 3.15.0
+  resolution: "@shikijs/types@npm:3.15.0"
   dependencies:
     "@shikijs/vscode-textmate": "npm:^10.0.2"
     "@types/hast": "npm:^3.0.4"
-  checksum: 10c0/154ec7a79e3c155ed47a14d14ccf91ea09909779993f999cf3d7e424c2f732cd7d7faf8074441a543445f64af1ef9456dcf9ddd4edad96615b68ca60eca2b7bc
+  checksum: 10c0/bc18c7e8b83fbf73f88a26dcf06e777566f8d8568a26ace4dacf5373c51e95213af1181eb389c4d0d7dc57c21824396278d6cbebf57a905676923bfdab00bb23
   languageName: node
   linkType: hard
 
@@ -8557,10 +8557,10 @@ __metadata:
     "@changesets/changelog-github": "npm:^0.5.1"
     "@changesets/cli": "npm:^2.29.4"
     "@commitlint/cli": "npm:^19.8.1"
-    "@shikijs/engine-oniguruma": "npm:^3.14.0"
-    "@shikijs/langs": "npm:^3.14.0"
-    "@shikijs/themes": "npm:^3.14.0"
-    "@shikijs/types": "npm:^3.14.0"
+    "@shikijs/engine-oniguruma": "npm:^3.15.0"
+    "@shikijs/langs": "npm:^3.15.0"
+    "@shikijs/themes": "npm:^3.15.0"
+    "@shikijs/types": "npm:^3.15.0"
     "@shikijs/vscode-textmate": "npm:^10.0.2"
     "@types/node": "npm:^22.15.21"
     c8: "npm:^10.1.3"
@@ -8570,7 +8570,7 @@ __metadata:
     npm-run-all2: "npm:^8.0.3"
     prettier: "npm:^3.5.3"
     semver: "npm:7.7.2"
-    shiki: "npm:^3.14.0"
+    shiki: "npm:^3.15.0"
     simple-git-hooks: "npm:^2.13.0"
     tsdown: "npm:^0.12.2"
     type-coverage: "npm:^2.29.7"
@@ -11024,19 +11024,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"shiki@npm:^3.14.0":
-  version: 3.14.0
-  resolution: "shiki@npm:3.14.0"
+"shiki@npm:^3.15.0":
+  version: 3.15.0
+  resolution: "shiki@npm:3.15.0"
   dependencies:
-    "@shikijs/core": "npm:3.14.0"
-    "@shikijs/engine-javascript": "npm:3.14.0"
-    "@shikijs/engine-oniguruma": "npm:3.14.0"
-    "@shikijs/langs": "npm:3.14.0"
-    "@shikijs/themes": "npm:3.14.0"
-    "@shikijs/types": "npm:3.14.0"
+    "@shikijs/core": "npm:3.15.0"
+    "@shikijs/engine-javascript": "npm:3.15.0"
+    "@shikijs/engine-oniguruma": "npm:3.15.0"
+    "@shikijs/langs": "npm:3.15.0"
+    "@shikijs/themes": "npm:3.15.0"
+    "@shikijs/types": "npm:3.15.0"
     "@shikijs/vscode-textmate": "npm:^10.0.2"
     "@types/hast": "npm:^3.0.4"
-  checksum: 10c0/a50b50a8649f71cc2fb735464331c8a50e0f4881fafe613d143480cac75ccc0dbf43afb194f787fad253cdf5aa29409521e5078b07270276856a90816f52b056
+  checksum: 10c0/ffe6a29525dc07067535f4b1ddcde4baba7cc0e364c4e5b82b5106a88c45b1997fd9745dea8b26b52ebd0a92f30fc1b28643b2d1e696f20693dd373475708a86
   languageName: node
   linkType: hard
 
