@@ -4,7 +4,13 @@ import { fileURLToPath } from 'node:url'
 
 import { createOnigurumaEngine, loadWasm } from '@shikijs/engine-oniguruma'
 
-export { codeToTokensWithThemes, createShikiInternal } from '@shikijs/core'
+export {
+  codeToTokensWithThemes,
+  createShikiInternal,
+  createShikiInternalSync,
+  createShikiPrimitive,
+  createShikiPrimitiveAsync,
+} from '@shikijs/core'
 export type {
   BundledLanguageInfo,
   BundledThemeInfo,
@@ -13,7 +19,8 @@ export type {
   HighlighterCoreOptions,
   LoadWasmOptions,
   RegexEngine,
-  ShikiInternal,
+  ShikiPrimitive as ShikiInternal,
+  ShikiPrimitive,
   TokenStyles,
 } from '@shikijs/types'
 export {
