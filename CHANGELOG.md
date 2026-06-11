@@ -1,5 +1,11 @@
 # Changelog
 
+## 4.2.1
+
+### Patch Changes
+
+- [#11](https://github.com/un-ts/mini-shiki/pull/11) [`e6c6034`](https://github.com/un-ts/mini-shiki/commit/e6c6034326227d408351b515ac5c0c8a1838c741) Thanks [@JounQin](https://github.com/JounQin)! - fix: known typings issue
+
 ## v4.2.0 (2026-06-03)
 
 - Update to Shiki [v4.2.0](https://github.com/shikijs/shiki/releases/tag/v4.2.0)
