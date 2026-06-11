@@ -5,7 +5,7 @@ import { test } from 'node:test'
 
 import {
   codeToTokensWithThemes,
-  createShikiInternal,
+  createShikiPrimitiveAsync,
   createOnigurumaEngine,
   bundledLanguages,
   bundledThemes,
@@ -15,7 +15,7 @@ import {
 await loadBuiltinWasm()
 
 void test('Highlight usage', async () => {
-  const shiki = await createShikiInternal({
+  const shiki = await createShikiPrimitiveAsync({
     engine: createOnigurumaEngine(),
     langs: [bundledLanguages.typescript],
     themes: [bundledThemes['light-plus']],
