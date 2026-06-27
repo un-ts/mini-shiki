@@ -1,5 +1,9 @@
 # Changelog
 
+## v4.3.0 (2026-06-27)
+
+- Update to Shiki [v4.3.0](https://github.com/shikijs/shiki/releases/tag/v4.3.0)
+
 ## 4.2.1
 
 ### Patch Changes
