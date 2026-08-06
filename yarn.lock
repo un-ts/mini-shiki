@@ -3148,76 +3148,76 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@shikijs/core@npm:4.4.1":
-  version: 4.4.1
-  resolution: "@shikijs/core@npm:4.4.1"
+"@shikijs/core@npm:4.4.2":
+  version: 4.4.2
+  resolution: "@shikijs/core@npm:4.4.2"
   dependencies:
-    "@shikijs/primitive": "npm:4.4.1"
-    "@shikijs/types": "npm:4.4.1"
+    "@shikijs/primitive": "npm:4.4.2"
+    "@shikijs/types": "npm:4.4.2"
     "@shikijs/vscode-textmate": "npm:^10.0.2"
     "@types/hast": "npm:^3.0.5"
     hast-util-to-html: "npm:^9.0.5"
-  checksum: 10c0/42c2027721db5e34dc660a77aa0e4223a830e597e5cf682a049b6a121c8640a3f7c4c4cfc423d957c6935af0904b14c0fb01ab9684e87e65a4dbfd35e0b6d485
+  checksum: 10c0/35058e528dcaea04d3bbf2c3ab6defc352b1d1cc90ac1283645af45f1f208218717ce10e24b27dd03fabdc2b039bedfd0bf69712de1d7ab8f0c67d8c343c6a7e
   languageName: node
   linkType: hard
 
-"@shikijs/engine-javascript@npm:4.4.1":
-  version: 4.4.1
-  resolution: "@shikijs/engine-javascript@npm:4.4.1"
+"@shikijs/engine-javascript@npm:4.4.2":
+  version: 4.4.2
+  resolution: "@shikijs/engine-javascript@npm:4.4.2"
   dependencies:
-    "@shikijs/types": "npm:4.4.1"
+    "@shikijs/types": "npm:4.4.2"
     "@shikijs/vscode-textmate": "npm:^10.0.2"
     oniguruma-to-es: "npm:^4.3.6"
-  checksum: 10c0/5e4a9defb5ab07c1e5fa4a6e747778e97d66a76e9d78fd4e0fcf340016f6f08174627c98973b84eb553ff22803950674349f3821af58aa0dd029cd78f0590c2b
+  checksum: 10c0/2e8cf60249567da010ce73d08acba9a42ef86c29e6ac8876d196558ba633d666498c98a47f1e3ba59308b78e8b74d7e5793a9061ab1b78919fa28528c3de531a
   languageName: node
   linkType: hard
 
-"@shikijs/engine-oniguruma@npm:4.4.1, @shikijs/engine-oniguruma@npm:^4.4.1":
-  version: 4.4.1
-  resolution: "@shikijs/engine-oniguruma@npm:4.4.1"
+"@shikijs/engine-oniguruma@npm:4.4.2, @shikijs/engine-oniguruma@npm:^4.4.2":
+  version: 4.4.2
+  resolution: "@shikijs/engine-oniguruma@npm:4.4.2"
   dependencies:
-    "@shikijs/types": "npm:4.4.1"
+    "@shikijs/types": "npm:4.4.2"
     "@shikijs/vscode-textmate": "npm:^10.0.2"
-  checksum: 10c0/eac78a9697a4310d4064c30f2699e784917ba23ef3a75d53d3483e62bfc52dbf9852ccaabd298c6d881ce1836c0fa7060e61e78922551e92953ff895fa490e70
+  checksum: 10c0/35ce68c3d1cfdf96626521db8f5256770f6327dcd083f8144bc8fcc43a37ae5d83c4472223784fa70b292c3bed67fa02a5130cfc6c54324d08730c760e5ee1a4
   languageName: node
   linkType: hard
 
-"@shikijs/langs@npm:4.4.1, @shikijs/langs@npm:^4.4.1":
-  version: 4.4.1
-  resolution: "@shikijs/langs@npm:4.4.1"
+"@shikijs/langs@npm:4.4.2, @shikijs/langs@npm:^4.4.2":
+  version: 4.4.2
+  resolution: "@shikijs/langs@npm:4.4.2"
   dependencies:
-    "@shikijs/types": "npm:4.4.1"
-  checksum: 10c0/50edfaae8fd00d3f319a8de87380e7b12f29785403d655098b9182f86740e33d87080d0e39ce79e3a6dbab3c698249202ed09af52cb04999b795e3f158b08d3d
+    "@shikijs/types": "npm:4.4.2"
+  checksum: 10c0/041026bd22f2a4b0a073304bf507adc0c175994edf89238ef8e94abc9eeda707e8eed0ee71c0ed2e4c662fb981b7e48d5f5165fd64ffb15596c1273e429da18c
   languageName: node
   linkType: hard
 
-"@shikijs/primitive@npm:4.4.1":
-  version: 4.4.1
-  resolution: "@shikijs/primitive@npm:4.4.1"
+"@shikijs/primitive@npm:4.4.2":
+  version: 4.4.2
+  resolution: "@shikijs/primitive@npm:4.4.2"
   dependencies:
-    "@shikijs/types": "npm:4.4.1"
-    "@shikijs/vscode-textmate": "npm:^10.0.2"
-    "@types/hast": "npm:^3.0.5"
-  checksum: 10c0/7a0afce4b20fff41d18f614322604fe9495d214afa46b8621e838ff39d87ad037167f2deaa6a2cf7fb33fc9d735c8c0beed645f40bb79bcdf6668caec0c7f433
-  languageName: node
-  linkType: hard
-
-"@shikijs/themes@npm:4.4.1, @shikijs/themes@npm:^4.4.1":
-  version: 4.4.1
-  resolution: "@shikijs/themes@npm:4.4.1"
-  dependencies:
-    "@shikijs/types": "npm:4.4.1"
-  checksum: 10c0/a1a67c0e2815a24845e092c55a61112845d6d41a9eef376ca69b92640733bba7f1e5cc1acf5e43fa131d0558bb320863b970987197cc4b1b41c379dd34dbfe27
-  languageName: node
-  linkType: hard
-
-"@shikijs/types@npm:4.4.1, @shikijs/types@npm:^4.4.1":
-  version: 4.4.1
-  resolution: "@shikijs/types@npm:4.4.1"
-  dependencies:
+    "@shikijs/types": "npm:4.4.2"
     "@shikijs/vscode-textmate": "npm:^10.0.2"
     "@types/hast": "npm:^3.0.5"
-  checksum: 10c0/f3f742c3f34338795f6e4732964ea3a7e251bff5b9d586e0c4546531e3d7c4e9f2693f1ce3f4bed014fb8f38a15d9e7f1c1c2be678c601c91d885566b1b1f5f2
+  checksum: 10c0/6b60cd2ef0f385435283266a9c99e9274dc1a56af8f7bd31189a1b4133c31a27678cb58c5ef96772b71a031c3aa0364e1378a8d962f865a04cf6ad8dae1eba5c
+  languageName: node
+  linkType: hard
+
+"@shikijs/themes@npm:4.4.2, @shikijs/themes@npm:^4.4.2":
+  version: 4.4.2
+  resolution: "@shikijs/themes@npm:4.4.2"
+  dependencies:
+    "@shikijs/types": "npm:4.4.2"
+  checksum: 10c0/36247ea8db358e8ccf1070d5b113d685abeb53af681f7ab0c07e025c71d53097d50fe5715ec46fb70b137bc821300cb368401effd1c076d80df6c319ae4a9d37
+  languageName: node
+  linkType: hard
+
+"@shikijs/types@npm:4.4.2, @shikijs/types@npm:^4.4.2":
+  version: 4.4.2
+  resolution: "@shikijs/types@npm:4.4.2"
+  dependencies:
+    "@shikijs/vscode-textmate": "npm:^10.0.2"
+    "@types/hast": "npm:^3.0.5"
+  checksum: 10c0/219e6ec76378a3740545327d184771fd9b697e4c5a0a409cf3dbdb5cef5eb6e046433aa2509a9bdef7adcd0b22f70d6ca18da3a035f45679da639249caa53a6a
   languageName: node
   linkType: hard
 
@@ -8251,10 +8251,10 @@ __metadata:
     "@changesets/changelog-github": "npm:^0.7.0"
     "@changesets/cli": "npm:^2.31.0"
     "@commitlint/cli": "npm:^21.0.2"
-    "@shikijs/engine-oniguruma": "npm:^4.4.1"
-    "@shikijs/langs": "npm:^4.4.1"
-    "@shikijs/themes": "npm:^4.4.1"
-    "@shikijs/types": "npm:^4.4.1"
+    "@shikijs/engine-oniguruma": "npm:^4.4.2"
+    "@shikijs/langs": "npm:^4.4.2"
+    "@shikijs/themes": "npm:^4.4.2"
+    "@shikijs/types": "npm:^4.4.2"
     "@shikijs/vscode-textmate": "npm:^10.0.2"
     "@types/node": "npm:^25.9.2"
     c8: "npm:^11.0.0"
@@ -8264,7 +8264,7 @@ __metadata:
     npm-run-all2: "npm:^9.0.1"
     prettier: "npm:^3.8.4"
     semver: "npm:7.8.4"
-    shiki: "npm:^4.4.1"
+    shiki: "npm:^4.4.2"
     simple-git-hooks: "npm:^2.13.1"
     tsdown: "npm:^0.22.2"
     type-coverage: "npm:^2.29.7"
@@ -10531,19 +10531,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"shiki@npm:^4.4.1":
-  version: 4.4.1
-  resolution: "shiki@npm:4.4.1"
+"shiki@npm:^4.4.2":
+  version: 4.4.2
+  resolution: "shiki@npm:4.4.2"
   dependencies:
-    "@shikijs/core": "npm:4.4.1"
-    "@shikijs/engine-javascript": "npm:4.4.1"
-    "@shikijs/engine-oniguruma": "npm:4.4.1"
-    "@shikijs/langs": "npm:4.4.1"
-    "@shikijs/themes": "npm:4.4.1"
-    "@shikijs/types": "npm:4.4.1"
+    "@shikijs/core": "npm:4.4.2"
+    "@shikijs/engine-javascript": "npm:4.4.2"
+    "@shikijs/engine-oniguruma": "npm:4.4.2"
+    "@shikijs/langs": "npm:4.4.2"
+    "@shikijs/themes": "npm:4.4.2"
+    "@shikijs/types": "npm:4.4.2"
     "@shikijs/vscode-textmate": "npm:^10.0.2"
     "@types/hast": "npm:^3.0.5"
-  checksum: 10c0/8ef2e0c0a202daa328907bb4f5e6dc1abb3dee8157be3fb65630b9c6f1f8938e3f9f98034f9f9ee30e3f40e948980587cfc94a83f3cf62742cc46f2d532054bc
+  checksum: 10c0/2bae4e358c561373ef5b5a7c3456466d91ae413250abad83a6281bc37b178fd5a6b9d5d68c9b2071d3c4f97ae11262faf04d453ecb9a5fd06af5bb765b6ef2dd
   languageName: node
   linkType: hard
 

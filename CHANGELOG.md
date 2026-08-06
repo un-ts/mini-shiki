@@ -1,5 +1,9 @@
 # Changelog
 
+## v4.4.2 (2026-08-06)
+
+- Update to Shiki [v4.4.2](https://github.com/shikijs/shiki/releases/tag/v4.4.2)
+
 ## v4.4.1 (2026-08-02)
 
 - Update to Shiki [v4.4.1](https://github.com/shikijs/shiki/releases/tag/v4.4.1)
