@@ -38,7 +38,7 @@
     "@shikijs/langs": "^4.5.0",
     "@shikijs/themes": "^4.5.0",
     "@shikijs/types": "^4.5.0",
-    "@shikijs/vscode-textmate": "^10.0.2"
+    "@shikijs/vscode-textmate": "^10.1.0"
   },
   "devDependencies": {
     "@1stg/common-config": "^15.0.0",
